@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img=cv2.imread(r'Sortie_APN\\test_1234.jpg')
+img=cv2.imread(r'data/Camera_Output/test_1234.jpg')
 
 def clean3(img,thr,ker):
     kernel = np.ones((ker,ker), np.uint8)

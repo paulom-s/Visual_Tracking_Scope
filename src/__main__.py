@@ -5,7 +5,7 @@ import com_tel
 import functions as f
 import time
 import cv2
-img=cv2.imread(r'Sortie_APN\\test_1234.jpg')
+img=cv2.imread(r'data/Camera_Output/test_1234.jpg')
 
 def test():
     global g_thr,g_ker
