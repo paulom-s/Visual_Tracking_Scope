@@ -1,0 +1,24 @@
+capture
+
+get
+    ShutterSpeed
+    Mode
+    Iso
+    Aperture
+    WhiteBalance
+    lastcaptured
+
+set
+
+list
+
+liveview_get
+
+liveview_stop
+
+
+def exe(args):
+    get(url + args)
+
+def get(param):
+    return get(url + 'get&param1=' + param).text
